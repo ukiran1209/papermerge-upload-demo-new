@@ -1,0 +1,10 @@
+# Exact affected package declaration for dependency scanners.
+papermerge-core==3.5.3
+
+# papermerge-source: https://github.com/papermerge/papermerge-core.git 13994c3c174bf5b634080c157a6c305c60aa84cb
+# The line above pins 3.5.3 and is read by run.sh.
+# Dependencies of the tagged modules imported by demo.py:
+aiofiles>=24.1,<25
+fastapi>=0.115,<1
+pikepdf>=9,<11
+pydantic-settings>=2,<3
